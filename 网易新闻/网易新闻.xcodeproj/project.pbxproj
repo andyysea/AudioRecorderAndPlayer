@@ -23,6 +23,8 @@
 		EA77F75D1D1103E40000922E /* UIScreen+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77F74F1D1103E40000922E /* UIScreen+CZAddition.m */; };
 		EA77F75E1D1103E40000922E /* UIView+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77F7511D1103E40000922E /* UIView+CZAddition.m */; };
 		EA77F75F1D1103E40000922E /* UIViewController+CZAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77F7531D1103E40000922E /* UIViewController+CZAddition.m */; };
+		EA77F7621D1105040000922E /* WYMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77F7611D1105040000922E /* WYMainViewController.m */; };
+		EA77F7651D11052C0000922E /* WYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA77F7641D11052C0000922E /* WYHomeViewController.m */; };
 		FAC0C815FBCD96D180E2A148 /* libPods-网易新闻.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 357B30F82512304EB7AB8047 /* libPods-网易新闻.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,10 @@
 		EA77F7511D1103E40000922E /* UIView+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CZAddition.m"; sourceTree = "<group>"; };
 		EA77F7521D1103E40000922E /* UIViewController+CZAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CZAddition.h"; sourceTree = "<group>"; };
 		EA77F7531D1103E40000922E /* UIViewController+CZAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CZAddition.m"; sourceTree = "<group>"; };
+		EA77F7601D1105040000922E /* WYMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMainViewController.h; sourceTree = "<group>"; };
+		EA77F7611D1105040000922E /* WYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainViewController.m; sourceTree = "<group>"; };
+		EA77F7631D11052C0000922E /* WYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHomeViewController.h; sourceTree = "<group>"; };
+		EA77F7641D11052C0000922E /* WYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +134,8 @@
 		EA77F7341D1103E40000922E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				EA77F7351D1103E40000922E /* Home */,
 				EA77F7381D1103E40000922E /* Main */,
+				EA77F7351D1103E40000922E /* Home */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 		EA77F7351D1103E40000922E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				EA77F7631D11052C0000922E /* WYHomeViewController.h */,
+				EA77F7641D11052C0000922E /* WYHomeViewController.m */,
 				EA77F7361D1103E40000922E /* NewsDetail */,
 				EA77F7371D1103E40000922E /* NewsList */,
 			);
@@ -160,6 +168,8 @@
 		EA77F7381D1103E40000922E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				EA77F7601D1105040000922E /* WYMainViewController.h */,
+				EA77F7611D1105040000922E /* WYMainViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -343,6 +353,8 @@
 				EA77F7571D1103E40000922E /* NSString+CZBase64.m in Sources */,
 				EA77F75B1D1103E40000922E /* UIColor+CZAddition.m in Sources */,
 				EA77F7221D1101FE0000922E /* AppDelegate.m in Sources */,
+				EA77F7651D11052C0000922E /* WYHomeViewController.m in Sources */,
+				EA77F7621D1105040000922E /* WYMainViewController.m in Sources */,
 				EA77F75C1D1103E40000922E /* UILabel+CZAddition.m in Sources */,
 				EA77F71F1D1101FE0000922E /* main.m in Sources */,
 				EA77F75D1D1103E40000922E /* UIScreen+CZAddition.m in Sources */,
