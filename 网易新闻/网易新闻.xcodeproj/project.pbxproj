@@ -68,6 +68,7 @@
 		EA77F7611D1105040000922E /* WYMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMainViewController.m; sourceTree = "<group>"; };
 		EA77F7631D11052C0000922E /* WYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHomeViewController.h; sourceTree = "<group>"; };
 		EA77F7641D11052C0000922E /* WYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHomeViewController.m; sourceTree = "<group>"; };
+		EA77F7661D1137270000922E /* WYNews.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYNews.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		EA77F71D1D1101FE0000922E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EA77F7661D1137270000922E /* WYNews.pch */,
 				EA77F7291D1101FE0000922E /* Assets.xcassets */,
 				EA77F72B1D1101FE0000922E /* LaunchScreen.storyboard */,
 				EA77F72E1D1101FE0000922E /* Info.plist */,
@@ -464,6 +466,7 @@
 			baseConfigurationReference = 35F4E2B8D86706B4C7AA1B5D /* Pods-网易新闻.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "网易新闻/WYNews.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -477,6 +480,7 @@
 			baseConfigurationReference = 283C5F0C4458449E775E7F63 /* Pods-网易新闻.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "网易新闻/WYNews.pch";
 				INFOPLIST_FILE = "网易新闻/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
